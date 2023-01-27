@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "nuxt": "^3.1.0"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.6",
+    "@types/node": "^18.11.18",
+    "@vueuse/nuxt": "^9.11.1",
+    "pinia": "^2.0.29",
+    "sass": "^1.57.1",
+    "sass-loader": "^13.2.0",
+    "scss": "^0.2.4",
+    "vite-plugin-vue-type-imports": "^0.2.4"
+  }
+}

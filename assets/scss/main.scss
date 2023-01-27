@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+}
+
+.content-box {
+  max-width: 1136px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 43px;
+  @media (max-width: 768px) {
+    padding: 0 15px;
+  }
+  @media (max-width: 480px) {
+    padding: 0 16px;
+  }
+
+  @media (max-width: 1024px) {
+    padding: 0 16px;
+  }
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-60 {
+  margin-top: 60px;
+}
+
+.page {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+body {
+  background: #050505;
+}
